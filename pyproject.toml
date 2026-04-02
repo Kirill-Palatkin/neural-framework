@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "miniflow-framework"
+version = "0.1.0"
+description = "Educational framework for fully connected neural networks."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.26",
+    "Pillow>=10.0",
+    "scikit-learn>=1.4",
+]
+
+[tool.setuptools.packages.find]
+include = ["miniflow*"]

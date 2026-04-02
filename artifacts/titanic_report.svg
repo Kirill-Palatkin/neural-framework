@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1360" height="1180" viewBox="0 0 1360 1180">
+  <rect width="1360" height="1180" fill="#f6f7fb"/>
+  <text x="48" y="56" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#111827">Отчёт по задаче Titanic</text>
+  <text x="48" y="86" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#4b5563">MiniFlow MLP на табличных признаках с сравнением оптимизаторов и анимацией обучения</text>
+  
+  <g>
+    <rect x="48" y="116" rx="18" ry="18" width="220" height="92" fill="#ffffff" stroke="#dbe1ea"/>
+    <text x="68" y="150" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#6b7280">Точность на валидации</text>
+    <text x="68" y="184" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" fill="#111827">88.20%</text>
+  </g>
+
+  
+  <g>
+    <rect x="308" y="116" rx="18" ry="18" width="220" height="92" fill="#ffffff" stroke="#dbe1ea"/>
+    <text x="328" y="150" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#6b7280">Потери на валидации</text>
+    <text x="328" y="184" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" fill="#111827">0.3578</text>
+  </g>
+
+  
+  <g>
+    <rect x="568" y="116" rx="18" ry="18" width="220" height="92" fill="#ffffff" stroke="#dbe1ea"/>
+    <text x="588" y="150" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#6b7280">Верных ответов</text>
+    <text x="588" y="184" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" fill="#111827">157 / 178</text>
+  </g>
+
+  
+  <g>
+    <rect x="828" y="116" rx="18" ry="18" width="220" height="92" fill="#ffffff" stroke="#dbe1ea"/>
+    <text x="848" y="150" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#6b7280">Лучший seed</text>
+    <text x="848" y="184" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" fill="#111827">7</text>
+  </g>
+
+  
+  <g>
+    <rect x="1088" y="116" rx="18" ry="18" width="220" height="92" fill="#ffffff" stroke="#dbe1ea"/>
+    <text x="1108" y="150" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#6b7280">Разбиение</text>
+    <text x="1108" y="184" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" fill="#111827">713 / 178</text>
+  </g>
+
+  <g><rect x="48" y="240" rx="18" ry="18" width="620" height="250" fill="#ffffff" stroke="#dbe1ea"/>
+<text x="70" y="268" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="600" fill="#111827">Потери</text>
+<line x1="104" y1="450.0" x2="650" y2="450.0" stroke="#eef2f7"/>
+<text x="56" y="455.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#6b7280">0.33</text>
+<line x1="104" y1="406.0" x2="650" y2="406.0" stroke="#eef2f7"/>
+<text x="56" y="411.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#6b7280">0.38</text>
+<line x1="104" y1="362.0" x2="650" y2="362.0" stroke="#eef2f7"/>
+<text x="56" y="367.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#6b7280">0.43</text>
+<line x1="104" y1="318.0" x2="650" y2="318.0" stroke="#eef2f7"/>
+<text x="56" y="323.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#6b7280">0.48</text>
+<line x1="104" y1="274.0" x2="650" y2="274.0" stroke="#eef2f7"/>
+<text x="56" y="279.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#6b7280">0.53</text>
+<line x1="104" y1="450" x2="650" y2="450" stroke="#9ca3af"/>
+<line x1="104" y1="274" x2="104" y2="450" stroke="#9ca3af"/>
+<text x="104" y="474" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#6b7280">1</text>
+<text x="632" y="474" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#6b7280">34</text>
+<polyline fill="none" stroke="#2563eb" stroke-width="3" points="104.0,274.0 120.5,351.6 137.1,373.4 153.6,385.0 170.2,376.2 186.7,391.7 203.3,404.6 219.8,407.2 236.4,404.8 252.9,395.1 269.5,401.4 286.0,400.0 302.5,406.8 319.1,432.1 335.6,431.4 352.2,433.4 368.7,391.5 385.3,430.5 401.8,428.7 418.4,430.5 434.9,431.0 451.5,431.8 468.0,440.1 484.5,425.4 501.1,436.5 517.6,435.8 534.2,423.6 550.7,433.4 567.3,442.8 583.8,445.8 600.4,430.5 616.9,431.9 633.5,442.9 650.0,450.0"/>
+<circle cx="70" cy="476" r="5" fill="#2563eb"/>
+<text x="80" y="480" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#374151">train loss</text>
+<polyline fill="none" stroke="#ef4444" stroke-width="3" points="104.0,378.4 120.5,422.9 137.1,409.4 153.6,423.1 170.2,405.3 186.7,414.7 203.3,403.6 219.8,409.0 236.4,412.5 252.9,402.3 269.5,420.9 286.0,404.8 302.5,406.3 319.1,405.3 335.6,401.4 352.2,413.0 368.7,389.3 385.3,382.4 401.8,385.2 418.4,387.7 434.9,388.5 451.5,383.2 468.0,399.3 484.5,387.6 501.1,379.0 517.6,382.0 534.2,388.7 550.7,384.6 567.3,390.5 583.8,394.1 600.4,369.1 616.9,390.5 633.5,393.7 650.0,373.9"/>
+<circle cx="230" cy="476" r="5" fill="#ef4444"/>
+<text x="240" y="480" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#374151">val loss</text>
+</g>
+  <g><rect x="692" y="240" rx="18" ry="18" width="620" height="250" fill="#ffffff" stroke="#dbe1ea"/>
+<text x="714" y="268" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="600" fill="#111827">Точность</text>
+<line x1="748" y1="450.0" x2="1294" y2="450.0" stroke="#eef2f7"/>
+<text x="700" y="455.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#6b7280">0.74</text>
+<line x1="748" y1="406.0" x2="1294" y2="406.0" stroke="#eef2f7"/>
+<text x="700" y="411.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#6b7280">0.77</text>
+<line x1="748" y1="362.0" x2="1294" y2="362.0" stroke="#eef2f7"/>
+<text x="700" y="367.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#6b7280">0.81</text>
+<line x1="748" y1="318.0" x2="1294" y2="318.0" stroke="#eef2f7"/>
+<text x="700" y="323.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#6b7280">0.85</text>
+<line x1="748" y1="274.0" x2="1294" y2="274.0" stroke="#eef2f7"/>
+<text x="700" y="279.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#6b7280">0.88</text>
+<line x1="748" y1="450" x2="1294" y2="450" stroke="#9ca3af"/>
+<line x1="748" y1="274" x2="748" y2="450" stroke="#9ca3af"/>
+<text x="748" y="474" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#6b7280">1</text>
+<text x="1276" y="474" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#6b7280">34</text>
+<polyline fill="none" stroke="#059669" stroke-width="3" points="748.0,450.0 764.5,360.2 781.1,344.6 797.6,349.8 814.2,327.3 830.7,336.0 847.3,322.2 863.8,334.3 880.4,334.3 896.9,327.3 913.5,344.6 930.0,320.4 946.5,323.9 963.1,311.8 979.6,313.5 996.2,311.8 1012.7,320.4 1029.3,315.3 1045.8,323.9 1062.4,303.2 1078.9,308.3 1095.5,303.2 1112.0,308.3 1128.5,299.7 1145.1,334.3 1161.6,303.2 1178.2,322.2 1194.7,310.1 1211.3,306.6 1227.8,298.0 1244.4,296.3 1260.9,311.8 1277.5,289.3 1294.0,304.9"/>
+<circle cx="714" cy="476" r="5" fill="#059669"/>
+<text x="724" y="480" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#374151">train acc</text>
+<polyline fill="none" stroke="#f59e0b" stroke-width="3" points="748.0,350.1 764.5,280.9 781.1,315.5 797.6,274.0 814.2,294.8 830.7,294.8 847.3,294.8 863.8,280.9 880.4,294.8 896.9,315.5 913.5,280.9 930.0,308.6 946.5,322.4 963.1,336.3 979.6,329.4 996.2,308.6 1012.7,350.1 1029.3,343.2 1045.8,329.4 1062.4,315.5 1078.9,329.4 1095.5,350.1 1112.0,322.4 1128.5,336.3 1145.1,329.4 1161.6,350.1 1178.2,336.3 1194.7,336.3 1211.3,336.3 1227.8,329.4 1244.4,370.9 1260.9,350.1 1277.5,322.4 1294.0,343.2"/>
+<circle cx="874" cy="476" r="5" fill="#f59e0b"/>
+<text x="884" y="480" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#374151">val acc</text>
+</g>
+  <g><rect x="48" y="520" rx="18" ry="18" width="620" height="290" fill="#ffffff" stroke="#dbe1ea"/>
+<text x="70" y="552" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="600" fill="#111827">Тепловая карта матрицы ошибок</text>
+<text x="70" y="578" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#6b7280">Строки = истинный класс, столбцы = предсказанный класс</text>
+<text x="308" y="598" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#374151">Предсказано 0</text>
+<text x="436" y="598" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#374151">Предсказано 1</text>
+<text x="180" y="680" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#374151">Истинно 0</text>
+<text x="180" y="808" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#374151">Истинно 1</text>
+<rect x="288" y="618" width="120" height="120" fill="#2563ebe1" stroke="#ffffff"/>
+<text x="304" y="648" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#f9fafb">TN</text>
+<text x="304" y="694" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">102</text>
+<rect x="408" y="618" width="120" height="120" fill="#ef444431" stroke="#ffffff"/>
+<text x="424" y="648" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#f9fafb">FP</text>
+<text x="424" y="694" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">8</text>
+<rect x="288" y="738" width="120" height="120" fill="#f973163b" stroke="#ffffff"/>
+<text x="304" y="768" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#f9fafb">FN</text>
+<text x="304" y="814" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">13</text>
+<rect x="408" y="738" width="120" height="120" fill="#10b98189" stroke="#ffffff"/>
+<text x="424" y="768" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#f9fafb">TP</text>
+<text x="424" y="814" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">55</text>
+<text x="70" y="640" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#374151">Точность на валидации: 88.20%</text>
+<text x="70" y="670" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#374151">Истинно положительных: 55</text>
+<text x="70" y="698" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#374151">Истинно отрицательных: 102</text>
+<text x="70" y="726" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#374151">Ложно положительных / отрицательных: 8 / 13</text>
+</g>
+  <g><rect x="692" y="520" rx="18" ry="18" width="620" height="290" fill="#ffffff" stroke="#dbe1ea"/>
+<text x="714" y="552" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="600" fill="#111827">Сравнение оптимизаторов</text>
+<text x="714" y="578" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#6b7280">Точность на одной и той же выборке и одном наборе признаков</text>
+<line x1="742" y1="778.0" x2="1272" y2="778.0" stroke="#eef2f7"/>
+<text x="700" y="783.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#6b7280">50.00%</text>
+<line x1="742" y1="727.5" x2="1272" y2="727.5" stroke="#eef2f7"/>
+<text x="700" y="732.5" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#6b7280">60.02%</text>
+<line x1="742" y1="677.0" x2="1272" y2="677.0" stroke="#eef2f7"/>
+<text x="700" y="682.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#6b7280">70.04%</text>
+<line x1="742" y1="626.5" x2="1272" y2="626.5" stroke="#eef2f7"/>
+<text x="700" y="631.5" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#6b7280">80.06%</text>
+<line x1="742" y1="576.0" x2="1272" y2="576.0" stroke="#eef2f7"/>
+<text x="700" y="581.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#6b7280">90.08%</text>
+<rect x="778" y="591.1" width="110" height="186.9" rx="12" fill="#2563eb"/>
+<text x="796" y="583.1" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#111827">87.08%</text>
+<text x="784" y="802" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#374151">SGD</text>
+<rect x="938" y="599.6" width="110" height="178.4" rx="12" fill="#f59e0b"/>
+<text x="956" y="591.6" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#111827">85.39%</text>
+<text x="944" y="802" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#374151">MomentumSGD</text>
+<rect x="1098" y="594.0" width="110" height="184.0" rx="12" fill="#10b981"/>
+<text x="1116" y="586.0" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#111827">86.52%</text>
+<text x="1104" y="802" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#374151">Adam</text>
+</g>
+  <g><rect x="48" y="850" rx="18" ry="18" width="620" height="250" fill="#ffffff" stroke="#dbe1ea"/>
+<text x="70" y="882" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="600" fill="#111827">Доля выживших по полу</text>
+<line x1="98" y1="1068.0" x2="628" y2="1068.0" stroke="#eef2f7"/>
+<text x="56" y="1073.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#6b7280">0%</text>
+<line x1="98" y1="1027.5" x2="628" y2="1027.5" stroke="#eef2f7"/>
+<text x="56" y="1032.5" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#6b7280">25%</text>
+<line x1="98" y1="987.0" x2="628" y2="987.0" stroke="#eef2f7"/>
+<text x="56" y="992.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#6b7280">50%</text>
+<line x1="98" y1="946.5" x2="628" y2="946.5" stroke="#eef2f7"/>
+<text x="56" y="951.5" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#6b7280">75%</text>
+<line x1="98" y1="906.0" x2="628" y2="906.0" stroke="#eef2f7"/>
+<text x="56" y="911.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#6b7280">100%</text>
+<rect x="154" y="947.8" width="120" height="120.2" rx="12" fill="#2563eb"/>
+<text x="172" y="939.8" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#111827">74.2%</text>
+<text x="172" y="1092" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#374151">Women</text>
+<text x="188" y="1110" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#6b7280">n=314</text>
+<rect x="334" y="1037.4" width="120" height="30.6" rx="12" fill="#2563eb"/>
+<text x="352" y="1029.4" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#111827">18.9%</text>
+<text x="352" y="1092" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#374151">Men</text>
+<text x="368" y="1110" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#6b7280">n=577</text>
+</g>
+  <g><rect x="692" y="850" rx="18" ry="18" width="620" height="250" fill="#ffffff" stroke="#dbe1ea"/>
+<text x="714" y="882" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="600" fill="#111827">Доля выживших по классу билета</text>
+<line x1="742" y1="1068.0" x2="1272" y2="1068.0" stroke="#eef2f7"/>
+<text x="700" y="1073.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#6b7280">0%</text>
+<line x1="742" y1="1027.5" x2="1272" y2="1027.5" stroke="#eef2f7"/>
+<text x="700" y="1032.5" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#6b7280">25%</text>
+<line x1="742" y1="987.0" x2="1272" y2="987.0" stroke="#eef2f7"/>
+<text x="700" y="992.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#6b7280">50%</text>
+<line x1="742" y1="946.5" x2="1272" y2="946.5" stroke="#eef2f7"/>
+<text x="700" y="951.5" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#6b7280">75%</text>
+<line x1="742" y1="906.0" x2="1272" y2="906.0" stroke="#eef2f7"/>
+<text x="700" y="911.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#6b7280">100%</text>
+<rect x="798" y="966.0" width="120" height="102.0" rx="12" fill="#ef4444"/>
+<text x="816" y="958.0" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#111827">63.0%</text>
+<text x="816" y="1092" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#374151">Class 1</text>
+<text x="832" y="1110" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#6b7280">n=216</text>
+<rect x="978" y="991.4" width="120" height="76.6" rx="12" fill="#ef4444"/>
+<text x="996" y="983.4" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#111827">47.3%</text>
+<text x="996" y="1092" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#374151">Class 2</text>
+<text x="1012" y="1110" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#6b7280">n=184</text>
+<rect x="1158" y="1028.7" width="120" height="39.3" rx="12" fill="#ef4444"/>
+<text x="1176" y="1020.7" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#111827">24.2%</text>
+<text x="1176" y="1092" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#374151">Class 3</text>
+<text x="1192" y="1110" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#6b7280">n=491</text>
+</g>
+</svg>
